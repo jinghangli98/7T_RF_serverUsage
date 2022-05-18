@@ -2,7 +2,8 @@
 7T RF research facility server usage
 
 ## Access to Storinator/Obelix
-VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect
+When working outside of RF Lab networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
+When working within the RF lab networks, VPN connection is not necessary.
 
 Connect to storinator: ```ssh 136.142.190.89```
 
@@ -11,9 +12,34 @@ Obelix interactive session:
 ssh 136.142.190.91 
 interactive.py -c 2 -p workstation -u 1
 ``` 
-or
+alternatively
 ```
 ssh 136.142.190.89 
 ssh cluster
 interactive.py -c 2 -p workstation -u 1
 ``` 
+
+## Jupyter Lab
+Jupyter lab is a powerful tool for visulization and gives direct feedback when building basic deep learning models
+install jupyter lab within the desired conda environment
+```
+conda install -c conda-forge jupyterlab
+```
+After installing jupyter lab you should call the following command: 
+```
+jupyter lab --no-browser --ip=0.0.0.0
+```
+You should see a line that looks like
+```
+[I 2022-05-18 13:41:46.434 ServerApp] http://obelix:8888/lab?token=.......
+```
+To start working on the requested jupyter session you need to call the following command in your terminal. 
+```
+ssh -L 8889:obelix:8888 username@136.142.190.91
+```
+This will connect port 8889 on your computer to port 8888 on the GPU node allowing you to connect to the Jupyter lab instance.
+Then you should be able to type in ```localhost:8889``` in your browser to connect to the jupyterlab session. 
+You may be asked to enter a token which will be the random letters and numbers following the '''http://obelix:8888/lab?token=''' you will also be able to assign a password which I recommend for convenience
+
+
+
