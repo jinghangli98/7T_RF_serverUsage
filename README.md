@@ -1,6 +1,10 @@
 # 7T_RF_serverUsage
 7T RF research facility server usage
 
+****Storinator:**** 272 Terabyte Raids for storage
+
+****Obelix:**** 2 NVIDIA TITAN RTX
+
 ## Access to Storinator/Obelix
 When working outside of RF Lab networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
 When working within the RF lab networks, VPN connection is not necessary.
@@ -45,4 +49,5 @@ You may be asked to enter a token which will be the random letters and numbers f
 While jupyter lab is illustrative to use at first, VS Code is a better option when actually training the final model with better code organization. 
 To start working remotely using VS Code one can use VS Code ssh plug-ins 
 
-
+## Cluster interactive.py
+```interactive.py -c 2 -p workstation -u 1``` is requesting 2 cores and 1 GPU on the workstation.
