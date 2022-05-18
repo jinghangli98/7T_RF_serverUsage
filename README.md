@@ -41,5 +41,8 @@ This will connect port 8889 on your computer to port 8888 on the GPU node allowi
 Then you should be able to type in ```localhost:8889``` in your browser to connect to the jupyterlab session. 
 You may be asked to enter a token which will be the random letters and numbers following the ```http://obelix:8888/lab?token=``` you will also be able to assign a password which I recommend for convenience
 
+## Visual Studio Code
+While jupyter lab is illustrative to use at first, VS Code is a better option when actually training the final model with better code organization. 
+To start working remotely using VS Code one can use VS Code ssh plug-ins 
 
 
