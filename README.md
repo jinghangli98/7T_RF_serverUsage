@@ -1,17 +1,17 @@
 # 7T_RF_serverUsage
-7T RF research facility server usage
+**7T RF research facility server usage**
 
-****Storinator:**** 272 Terabyte Raids for storage
+**Storinator:** 272 Terabyte Raids for storage
 
-****Obelix:**** 2 NVIDIA TITAN RTX
+**Obelix:** 2 NVIDIA TITAN RTX 48 total GPU RAM
 
 ## Access to Storinator/Obelix
 When working outside of RF Lab networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
 When working within the RF lab networks, VPN connection is not necessary.
 
-Connect to storinator: ```ssh 136.142.190.89```
+Connect to Storinator: ```ssh 136.142.190.89```
 
-Obelix interactive session: 
+Connect to Obelix interactive session: 
 ```
 ssh 136.142.190.91 
 interactive.py -c 2 -p workstation -u 1
