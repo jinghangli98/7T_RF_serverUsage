@@ -39,7 +39,7 @@ ssh -L 8889:obelix:8888 username@136.142.190.91
 ```
 This will connect port 8889 on your computer to port 8888 on the GPU node allowing you to connect to the Jupyter lab instance.
 Then you should be able to type in ```localhost:8889``` in your browser to connect to the jupyterlab session. 
-You may be asked to enter a token which will be the random letters and numbers following the '''http://obelix:8888/lab?token=''' you will also be able to assign a password which I recommend for convenience
+You may be asked to enter a token which will be the random letters and numbers following the ```http://obelix:8888/lab?token=``` you will also be able to assign a password which I recommend for convenience
 
 
 
