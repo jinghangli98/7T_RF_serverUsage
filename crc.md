@@ -39,3 +39,6 @@ To start working remotely using VS Code one can use VS Code ssh plug-ins
 
 ## Cluster interactive.py
 ```interactive.py -c 2 -p workstation -u 1``` is requesting 2 cores and 1 GPU on the workstation.
+
+# useful things
+```https://burntyellow.github.io/#6```
