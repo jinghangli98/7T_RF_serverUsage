@@ -41,7 +41,7 @@ To start working remotely using VS Code one can use VS Code ssh plug-ins
 ```interactive.py -c 2 -p workstation -u 1``` is requesting 2 cores and 1 GPU on the workstation.
 
 ## Sbatch job submission 
-```sbatch [freesurfer_seg.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh) ```
+```sbatch```[freesurfer_seg.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh)
 
 ## Useful Link
 https://burntyellow.github.io
