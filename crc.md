@@ -3,7 +3,7 @@
 When working outside of Pitt networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
 When working within the Pitt networks, VPN connection is not necessary.
 
-Connect to Storinator: ```ssh username@h2p.crc.pitt.edu```
+Connect to Pitt CRC: ```ssh username@h2p.crc.pitt.edu```
 
 Connect to crc interactive session: 
 ```
