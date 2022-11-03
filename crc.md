@@ -8,10 +8,15 @@ Connect to Storinator: ```ssh username@h2p.crc.pitt.edu```
 Connect to crc interactive session: 
 ```
 crc-interactive.py --smp --time=1 --num-cores=2
-
+```
+This command will request 1 hour and two cores on smp cluster.
+```
 crc-interactive.py -g -u 1 -n 1 -c 1 -p a100 -t 6
 ``` 
-This command will request 1 hour and two cores on smp cluster. See ``` crc-interactive.py --help``` for more options
+This command will request 6 hours on A100 gpu on the crc cluster
+
+ See ``` crc-interactive.py --help``` for more options
+ 
 
 ```
 module load pytorch_gpu/1.11.0
