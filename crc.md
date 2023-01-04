@@ -7,7 +7,7 @@ Connect to Pitt CRC: ```ssh username@h2p.crc.pitt.edu```
 
 Connect to crc interactive session: 
 ```
-crc-interactive.py --smp --time=1 --num-cores=2
+crc-interactive.py --smp --time=1 --num-cores=4
 ```
 This command will request 1 hour and two cores on smp cluster.
 ```
