@@ -15,6 +15,7 @@ Connect to Obelix interactive session:
 ```
 ssh username@136.142.190.91 
 interactive.py -c 2 -p workstation -u 1
+salloc -c 64 -p cluster -k -w node10
 ``` 
 alternatively
 ```
