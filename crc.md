@@ -50,7 +50,8 @@ While jupyter lab is illustrative to use at first, VS Code is a better option wh
 To start working remotely using VS Code one can use VS Code ssh plug-ins 
 
 ## Sbatch job submission 
-```sbatch```[freesurfer_seg.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh)
+```sbatch```[freesurfer_seg.sh] (https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh)
+```sbatch```--array=1-72[freesurfer_seg.sh] (https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh) will submit 72 jobs
 
 ## Useful Link
 https://burntyellow.github.io
