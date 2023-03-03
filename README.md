@@ -13,3 +13,10 @@
 [Obelix](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/obelix.md) 
 
 [CRC](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/crc.md)
+
+## Useful crc script
+```crc-quota.py```
+
+```crc-usage.py```
+
+```crc-idel.py```
