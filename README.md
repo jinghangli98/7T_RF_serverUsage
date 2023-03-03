@@ -15,13 +15,13 @@
 [CRC](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/crc.md)
 
 ## Useful crc script
-```crc-quota.py```
+```crc-quota.py``` This command shows how much disk storage you have left.
 
-```crc-usage.py```
+```crc-usage.py``` This command shows how much computational resources you have used.
 
-```crc-idel.py```
+```crc-idel.py``` This command shows the idle computational resources. 
 
-```squeue -u username --cluster gpu```
+```squeue -u username --cluster gpu``` This command shows you the jobs that you are running on the gpu cluster. 
 
 #### CPU interactive request
 > ```crc-interactive.py --smp --time=10 --num-cores=4``` 
