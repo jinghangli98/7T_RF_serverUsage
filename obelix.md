@@ -9,11 +9,11 @@
 When working outside of RF Lab networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
 When working within the RF lab networks, VPN connection is not necessary.
 
-Connect to Storinator: ```ssh username@136.142.190.89```
+Connect to Storinator: ```ssh username@10.227.23.137```
 
 Connect to Obelix interactive session: 
 ```
-ssh username@136.142.190.91 
+ssh username@10.227.23.139
 interactive.py -c 2 -p workstation -u 1
 salloc -c 64 -p cluster -k -w node10
 ``` 
