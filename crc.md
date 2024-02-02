@@ -11,11 +11,11 @@ crc-interactive --smp --time=10 --num-cores=4
 ```
 This command will request 1 hour and two cores on smp cluster.
 ```
-crc-interactive -g -u 1 -n 1 -c 1 -p a100 -t 6
+crc-interactive -g -p a100 -t 6 -b 40
 ``` 
-This command will request 6 hours on A100 gpu on the crc cluster
+This command will request 6 hours on A100 gpu on the crc cluster with 40 GB of RAM
 
- See ``` crc-interactive.py --help``` for more options
+ See ``` crc-interactive --help``` for more options
  
 
 ```
@@ -53,6 +53,8 @@ To start working remotely using VS Code one can use VS Code ssh plug-ins
 ```sbatch freesurfer_seg.sh``` [freesurfer_seg.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh)
 
 ```sbatch --array=1-72 freesurfer_seg.sh``` [freesurfer_seg.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/freesurfer_seg.sh) This command will submit 72 jobs
+
+```sbatch getThickness.sh``` [getThickness.sh](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/getThickness.sh) Take a look at this slurm file. You can specify/define how many jobs need to be run in the script.
 
 ## Useful Link
 https://burntyellow.github.io
