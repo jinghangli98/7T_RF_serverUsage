@@ -27,7 +27,7 @@
 > ```crc-interactive -s -b 12``` 
 > 
 > 
-> These two commands will request resources on the smp cluster with 12 gb memory. **Note: htc is slower than smp.** But fewer people request htc and you could get resources allocated faster than smp if you want more cores.  To leverage the amount of cores requested you could use the ```parallel``` GNU command.
+> These command will request resources on the smp cluster with 12 gb memory. **Note: htc is slower than smp.** But fewer people request htc and you could get resources allocated faster than smp if you want more cores.  To leverage the amount of cores requested you could use the ```parallel``` GNU command.
 > 
 > Example: ```ls *.nii | parallel --jobs 4 mri_synthstrip -i {} -m {.}_mask.nii``` This command will list out all the nii files in your current directory and process skull stripping using mri_synthstrip 4 jobs at a time. 
 
