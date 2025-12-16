@@ -3,8 +3,6 @@
 
 **Storinator:** 272 Terabyte Raids for storage
 
-**Obelix:** 2 NVIDIA TITAN RTX 48 total GPU RAM
-
 ## Access to Storinator/Obelix
 When working outside of RF Lab networks, VPN connect to MRRC-RADIOLOGY-USERS-NetworkConnect. 
 When working within the RF lab networks, VPN connection is not necessary.
