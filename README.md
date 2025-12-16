@@ -4,10 +4,7 @@
 
 **Storinator:** 272 Terabyte Raids for storage
 
-**rflab cluster:** 2 NVIDIA TITAN RTX 48 total GPU RAM
-
 **Pitt CRC:**  Cluster: smp, Available SUs: 1700000 | Cluster: mpi, Available SUs: 50000 | Cluster: gpu, Available SUs: 50000 | Cluster: htc, Available SUs: 500000 
-
 
 ## 
 [rflab cluster](https://github.com/jinghangli98/7T_RF_serverUsage/blob/main/obelix.md) 
